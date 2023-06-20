@@ -1,18 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>임은재의 홈페이지</title>
+    <title>내 웹사이트</title>
+    <style>
+        /* CSS 스타일을 여기에 작성합니다. */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #f2f2f2;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        footer {
+            background-color: #f2f2f2;
+            padding: 10px;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h2>안녕하세요 임은재입니다.</h2>
-    <button id = 'btn'>click!</button>
+    <header>
+        <h1>내 웹사이트</h1>
+        <nav>
+            <a href="#">홈</a>
+            <a href="#">서비스</a>
+            <a href="#">포트폴리오</a>
+            <a href="#">연락처</a>
+        </nav>
+    </header>
+
+    <section id="content">
+        <h2>서비스 소개</h2>
+        <p>여기에 내용을 작성합니다.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 내 웹사이트. All rights reserved.</p>
+    </footer>
 </body>
 </html>
-<script>
-    const button = document.getElementById('btn')
-    button.addEventListener('click',()=>{
-        alert('안녕하세요 엘리스입니다.')
-    })
-</script>
