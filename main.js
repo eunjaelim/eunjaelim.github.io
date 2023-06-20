@@ -67,7 +67,7 @@ function addItem(){
      li.appendChild(like);
      list.appendChild(li);
      li.appendChild(item);
-     li.appendChild(manage);
+     li.appendChild(manage); 
 
      inputText.value="";
      inputText.focus();
